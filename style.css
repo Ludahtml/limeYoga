@@ -1,0 +1,105 @@
+body{
+  font-family: 'Nanum Gothic', sans-serif;;  
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 6rem;
+    color: white;
+    letter-spacing: 20px;
+    margin-top:20%;
+}
+h3{
+    padding:20px;
+}
+
+.white-pointer{
+    display:block;
+    color:white;
+    padding-top:3rem;
+    text-align: center;
+}
+
+
+/* head */
+.logo-img{
+    border: white solid;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+}
+.title-col{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+#home{
+    background: linear-gradient(to right, yellow 50%,#5fbf00 50%)}
+
+/* classes */
+.schedule{
+    font-weight: bold;
+}
+#classes{
+    padding: 10% 3% 10% 12%;
+background: linear-gradient(to right, yellow 50%,#5fbf00 50%)
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #007f3f;
+color: white;
+}
+.testimonial-image{
+    border-radius: 100%;
+    padding:5%;
+}
+em {
+    font-size: 1.5rem;
+}
+.test{
+    font-size: 2rem;
+}
+.carousel-item{
+padding: 10% 15%;
+}
+
+/* contact-us */
+.icon{
+    display:block;
+    padding: 20px;
+    color:rgb(58, 57, 57);
+}
+button{
+    display: block;
+    border-radius: 10%;
+    padding: 10px 20px;
+}
+
+#contact-us{
+    background-image: url(./img/yellow\ sun.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding:5%;
+} 
+
+/* footer */
+footer{
+    text-align: center;
+    padding:2%;
+    background-color: #5fbf00;
+}
+footer i{
+    padding:20px;
+}
+.yellow{
+    float:right;
+}
+@media(max-width: 956px){
+    .col-lg-6{
+        text-align: center;    
+    }
+    .card-col{
+        padding-top: 5%;
+    }
+}
